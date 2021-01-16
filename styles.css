@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: 'Poppins';
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #1f1f1f;
+    padding: 0 100px;
+    position: fixed;
+}
+
+nav .logo a {
+    float: left;
+    line-height: 60px;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navig {
+    display: inline;
+    float: right;
+}
+
+nav .navig a {
+    line-height: 60px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #cccccc;
+    font-size: .9rem;
+}
+
+nav .navig a:hover {
+    color: #ffffff;
+}
+
+.header {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.header img {
+    width: 8%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.header img:hover {
+    background: linear-gradient( #8134af,#dd2a7b, #f58529);
+    border-radius: 50%;
+    display: inline-block;
+    font-size: 20px;
+    padding: 1px;
+    text-decoration: none;
+}
+
+.header h1 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.header h1 a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #111;
+    display: block;
+    line-height: 1rem;
+}
+
+.header h1 a:hover {
+    color: #ffd900;
+}
+
+.header h2 {
+    margin-top: 20px;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+
+.buttons {
+    width: 100%;
+    height: 40px;
+    background-color: #111;
+    margin: 50px 0 20px 0;
+    text-align: center;
+}
+
+.btn {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    font-size: .9rem;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.btn:hover {
+    background-color: #ffda06;
+    color: #111;
+}
+
+.none {
+    display: none;
+}
+
+.card {
+    width: 60%;
+    height: 60px;
+    background: #1f1f1f;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.card p {
+    padding-left: 20px;
+}
+
+.card a{
+    line-height: 60px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.card a:hover {
+    color: #ffda06;
+}
+
+footer {
+    width: 100%;
+    min-height: 40px;
+    background: #1f1f1f;
+    color: rgb(180, 180, 180);
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: .7rem;
+    font-weight: 300;
+    width: 70%;
+    margin: 0 auto;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #ffda06;
+}
+
+footer p:first-child{
+    border-bottom: 1px solid rgb(136, 136, 136);
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
