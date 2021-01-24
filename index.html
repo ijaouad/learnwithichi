@@ -17,93 +17,37 @@
     <div class="container">
         <nav>
             <div class="logo">
-                <a href="https://learnwithichi.com" target="_blank"><i class="fas fa-graduation-cap"></i>  Learn With ICHI</a>
+                <a href="https://lwichi.com" target="_blank"><i class="fas fa-graduation-cap"></i>  Learn With ICHI</a>
             </div>
     
             <div class="navig">
                 <a href="#" target="_blank">Shop</a>
                 <a href="mailto:jad.contactme@gmail.com" >Contact</a>
             </div>
-            
         </nav>
 
         <div class="header">
 
-            <a href="https://instagr.am/ichi.dev" target="_blank"><img src="images/ichi.jpg" alt=""></a>
-            <h1>JAOUAD ICHI<a href="https://instagr.am/ichi.dev" target="_blank">@ichi.dev</a></h1>
-
-            <h2>Valuable Resources To Learn <br> Web Development</h2>
+            <h1>Valuable Resources To Learn <br> Web Development</h1>
 
         </div>
 
 
         <div class="buttons">
 
-            <button class="btn" onclick="OpenTab('home')">Home</button>
-            <button class="btn" onclick="OpenTab('free')">Free</button>
-            <button class="btn" onclick="OpenTab('tips')">Tips</button>
+            <button id="btnhome" class="btn active" onclick="OpenTab('home')">Home</button>
+            <button id="btnfree" class="btn" onclick="OpenTab('free')">Free</button>
+            <button id="btntips" class="btn" onclick="OpenTab('tips')">Tips</button>
 
         </div>
 
 
+        <div id="home" class="tab"></div>
 
-        <div id="home" class="tab">
-            <div class="card">
-                <a href="#" target="_blank">
-                    <p>Improve your JavaScript skills by building these 15 projects</p>
-                </a>
-            </div>
-            <div class="card">
-                <a href="#" target="_blank">
-                    <p>500 Free Computer Science Courses from the World’s Top CS Universities</p>
-                </a>
-            </div>
-            <div class="card">
-                <a href="#" target="_blank">
-                    <p>Power Up your JAMstack Development – FREE webinar</p>
-                </a>
-            </div>
-        </div>
+        <div id="free" class="tab none"></div>
 
+        <div id="tips" class="tab none"></div>
 
-
-        <div id="free" class="tab none">
-             <div class="card">
-                <a href="#" target="_blank">
-                    <p>10 FREE courses to learn Python</p>
-                </a>
-            </div>
-            <div class="card">
-                <a href="#" target="_blank">
-                    <p>7 FREE courses to learn Vue.js</p>
-                </a>
-            </div>
-            <div class="card">
-                <a href="#" target="_blank">
-                    <p>7 FREE courses to learn Angular</p>
-                </a>
-            </div>
-        </div>
-
-
-
-        <div id="tips" class="tab none">
-            <div class="card">
-                <a href="#" target="_blank">
-                    <p>10 Ways to Become a Better Developer</p>
-                </a>
-            </div>
-            <div class="card">
-                <a href="#" target="_blank">
-                    <p>101 Tips For Being A Great Programmer (& Human)</p>
-                </a>
-            </div>
-            <div class="card">
-                <a href="#" target="_blank">
-                    <p>The Mistakes I Made As a Beginner Programmer</p>
-                </a>
-            </div>
-        </div>
 
         <footer>
             <p class="cprghit">Copyright © 2021 J. ICHI <a href="https://instagr.am/ichi.dev" target="_blank">@ichi.dev</a>. All rights reserved.</p>
@@ -114,7 +58,8 @@
     </div>    
 
     
-
-    <script src="script.js"></script>
+    <script src="js/links.js" charset="UTF-8"></script>
+    <script src="js/app.js" charset="UTF-8"></script>
 </body>
 </html>
+
