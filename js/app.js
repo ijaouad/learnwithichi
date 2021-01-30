@@ -32,7 +32,7 @@ function dataInsert (array, tab) {
         item.remove();
     });
     
-    array.forEach(item => {
+     array.forEach(item => {
         let card = document.createElement('div');
         card.className = "card";
 
@@ -43,9 +43,9 @@ function dataInsert (array, tab) {
         let text = document.createElement('p');
         text.innerHTML = item.text;
 
-        link.append(text);
-        card.append(link);
+        card.append(text);
+        link.append(card);
 
-        document.getElementById(tab).append(card);
+        document.getElementById(tab).append(link);
     });
 }
