@@ -5,7 +5,6 @@
 }
 
 body {
-    
     font-family: 'Poppins';
 }
 
@@ -98,21 +97,20 @@ nav .navig a:hover {
     width: 60%;
     min-height: 60px;
     background: #1f1f1f;
+    color: #fff;
     margin: 20px auto ;
     padding: 20px;
+    transition: 0.3s;
 }
 
-.card a{
+.tab a{
     text-decoration: none;
     color: #fff;
 }
 
-.card:hover {
-    cursor: pointer;
-}
-
-.card p:hover {
-    color: #ffda06;
+.tab a:hover .card {
+    background: #000000;
+    color: #ffe658;
 }
 
 footer {
