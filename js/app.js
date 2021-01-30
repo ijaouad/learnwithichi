@@ -32,7 +32,7 @@ function dataInsert (array, tab) {
         item.remove();
     });
     
-     array.forEach(item => {
+    array.forEach(item => {
         let card = document.createElement('div');
         card.className = "card";
 
